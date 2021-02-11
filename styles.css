@@ -1,0 +1,38 @@
+/* **********************GOOGLE FONT LINK**************** */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+  }
+  .bg{
+
+    background: url(./francesco-ungaro-XYMm4LRKZLE-unsplash.jpg);
+      /* background: url(https://source.unsplash.com/1600x900/?nature) ; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* min-width: 100vw; */
+    min-width: calc(100vw + 60px);
+    height: 100vh;
+    /* min-height: calc(100vh + 60px); */
+      position: absolute;
+      z-index: -1;
+      filter: blur(30px);
+ 
+  }
+  .text{
+      font-size: 3rem;
+  }
